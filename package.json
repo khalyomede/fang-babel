@@ -1,0 +1,37 @@
+{
+	"name": "@khalyomede/fang-babel",
+	"version": "0.1.0",
+	"description": "Fang plugin to use babel.",
+	"main": "lib/main.js",
+	"repository": "https://github.com/khalyomede/fang-babel",
+	"author": "Khalyomede <khalyomede@gmail.com>",
+	"license": "MIT",
+	"private": false,
+	"keywords": [
+		"fang",
+		"babel",
+		"plugin",
+		"transpile",
+		"es6"
+	],
+	"dependencies": {
+		"@babel/core": "7.*"
+	},
+	"devDependencies": {
+		"@khalyomede/fang": "0.*",
+		"@types/node": "11.*",
+		"gulp": "4.*",
+		"gulp-plumber": "1.*",
+		"gulp-typescript": "5.*",
+		"np": "4.*",
+		"typescript": "3.*"
+	},
+	"scripts": {
+		"start": "gulp start",
+		"build": "gulp build",
+		"release": "np"
+	},
+	"files": [
+		"lib/main.js"
+	]
+}
